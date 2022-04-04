@@ -9,7 +9,7 @@ const incalphaII = document.getElementById("alphaII");
 const incNumbers = document.getElementById("numbers");
 const incSymbols = document.getElementById("symbols");
 const generateBtn = document.getElementById("generate");
-const deleteBtn = document.getElementById("detele");
+const deleteBtn = document.getElementById("delete");
 
 generateBtn.addEventListener("click", () => {
   let characters = alpha;

@@ -47,8 +47,38 @@ table {
 }
 #random-password{
     border: solid black 2px;
+	border-radius: 15px;
     padding: 20px;
+	background-color: rgb(250, 196, 250);
 }
 input{
     margin: 5px;
+	background-color: rgb(247, 176, 247);
+	border: solid white 1px;
+	color: white;
+
+	
+}
+label{
+	color: white;
+}
+
+
+button{
+	
+	background-color: rgb(247, 176, 247);
+
+	border: solid white 1px;
+	color: white;
+}
+#password{
+	border: solid white 1px;
+	background-color: rgb(247, 176, 247);
+	color: white;
+	text-align: center;
+}
+#delete{
+	position: relative;
+	left: -9px;
+	border-left:none ;
 }
