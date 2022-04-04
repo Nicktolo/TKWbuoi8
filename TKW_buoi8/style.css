@@ -29,6 +29,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+	
 }
 ol, ul {
 	list-style: none;
@@ -49,11 +50,12 @@ table {
     border: solid black 2px;
 	border-radius: 15px;
     padding: 20px;
-	background-color: rgb(250, 196, 250);
+	background-color: rgb(255 222 243);
+	transform: scale(3.5);
 }
 input{
     margin: 5px;
-	background-color: rgb(247, 176, 247);
+	background-color: rgb(247, 210, 247);
 	border: solid white 1px;
 	color: white;
 
@@ -66,14 +68,14 @@ label{
 
 button{
 	
-	background-color: rgb(247, 176, 247);
+	background-color: rgb(247, 210, 247);
 
 	border: solid white 1px;
 	color: white;
 }
 #password{
 	border: solid white 1px;
-	background-color: rgb(247, 176, 247);
+	background-color: rgb(247, 210, 247);
 	color: white;
 	text-align: center;
 }
@@ -81,4 +83,11 @@ button{
 	position: relative;
 	left: -9px;
 	border-left:none ;
+}
+img{
+	width: 100px; 
+	height: 100px; 
+	float: right;
+	position: relative;
+	top: -100px;
 }
